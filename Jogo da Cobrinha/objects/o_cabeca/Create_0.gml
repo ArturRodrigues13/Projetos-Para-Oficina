@@ -1,7 +1,7 @@
 metade = sprite_width;
 incremento = 0;
 vel = 2;
-dir = "esquerda";
+dir = "";
 next_seguir = self;
 primeiro_corpo = noone;
 

@@ -35,6 +35,7 @@
   },
   "name":"Jogo da Cobrinha",
   "resources":[
+    {"id":{"name":"fnt_bonita","path":"fonts/fnt_bonita/fnt_bonita.yy",},},
     {"id":{"name":"o_cabeca","path":"objects/o_cabeca/o_cabeca.yy",},},
     {"id":{"name":"o_controller","path":"objects/o_controller/o_controller.yy",},},
     {"id":{"name":"o_corpo","path":"objects/o_corpo/o_corpo.yy",},},

@@ -1,6 +1,7 @@
 instance_destroy(other);
 
 incremento += 1;
+global.pontuacao += 1;
 
 var _inst = noone;
 
