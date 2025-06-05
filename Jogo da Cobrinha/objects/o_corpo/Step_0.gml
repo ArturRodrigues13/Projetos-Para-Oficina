@@ -1,5 +1,3 @@
-
-
 if((dir == "direita" || dir == "esquerda") && (seguindo.dir == "baixo" || seguindo.dir == "cima")) {
 	
 	if(x == seguindo.x) {

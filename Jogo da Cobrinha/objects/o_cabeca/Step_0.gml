@@ -67,6 +67,6 @@ if(_colisao != noone) {
 
 	if(_colisao.id != primeiro_corpo.id) {
 	
-		game_restart();
+		global.game_over = true;
 	}
 }

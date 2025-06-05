@@ -1,1 +1,1 @@
-game_restart();
+global.game_over = true;

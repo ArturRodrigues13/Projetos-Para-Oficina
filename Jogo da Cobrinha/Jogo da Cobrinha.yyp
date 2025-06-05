@@ -41,6 +41,7 @@
     {"id":{"name":"o_maca","path":"objects/o_maca/o_maca.yy",},},
     {"id":{"name":"o_parede","path":"objects/o_parede/o_parede.yy",},},
     {"id":{"name":"Teste","path":"rooms/Teste/Teste.yy",},},
+    {"id":{"name":"scr_globais","path":"scripts/scr_globais/scr_globais.yy",},},
     {"id":{"name":"spr_cabeca","path":"sprites/spr_cabeca/spr_cabeca.yy",},},
     {"id":{"name":"spr_corpo","path":"sprites/spr_corpo/spr_corpo.yy",},},
     {"id":{"name":"spr_maca","path":"sprites/spr_maca/spr_maca.yy",},},
