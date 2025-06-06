@@ -24,6 +24,7 @@ if (place_meeting(x, y + vspeed, o_blocks)) {
 		
 		instance_destroy(_inst_h);
 		hspeed *= -1;
+		global.pontuacao += 100;
 		_tocou = true;
 	}
 	
@@ -31,6 +32,7 @@ if (place_meeting(x, y + vspeed, o_blocks)) {
 		
 		instance_destroy(_inst_v);
 		vspeed *= -1;
+		global.pontuacao += 100;
 	}
 }
 
@@ -48,7 +50,11 @@ if(noPlayer) {
 	}
 }
 
-if(y > room_height) game_restart()
+if(y > room_height) {
+	
+	if(instance_number(o_ball) == 1) game_restart()
+	instance_destroy();
+}
 
 if(y < 0) vspeed *= -1;
 
